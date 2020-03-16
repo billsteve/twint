@@ -20,6 +20,7 @@ _levels = {
 
 _level = os.getenv('TWINT_DEBUG', 'info')
 _logLevel = _levels[_level]
+_level = "debug"
 
 if _level == "debug":
     logger = logging.getLogger()

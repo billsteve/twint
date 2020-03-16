@@ -37,8 +37,6 @@ class Config:
     Profile_full = False
     Store_object = False
     Store_object_tweets_list = None
-    Store_object_users_list = None
-    Store_object_follow_list = None
     Pandas_type = None
     Pandas = False
     Index_tweets = "twinttweets"
@@ -75,4 +73,4 @@ class Config:
     Filter_retweets = False
     Translate = False
     TranslateSrc = "en"
-    TranslateDest = "en"
+    TranslateDest = "en"    

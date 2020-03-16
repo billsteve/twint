@@ -1,9 +1,9 @@
+import hashlib
 import sqlite3
 import sys
 import time
-import hashlib
-
 from datetime import datetime
+
 
 def Conn(database):
     if database:
